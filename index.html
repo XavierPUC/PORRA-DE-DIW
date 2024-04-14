@@ -48,12 +48,30 @@
                 <br>
                 <li><strong>Local:</strong> Itabirito, MG, Brasil.</li>
                 <li><strong>Site:</strong> http://127.0.0.1:3000/index.html</li>
+                
 
-                <ul class="site">
-                    <button class="discord-button">
-                        <li><i class="fa-brands fa-discord"></i></li>
-                        <ul class="site">
-                        
+<button class="discord-button" onclick="togglePopup()">                    <li><i class="fa-brands fa-discord"></i></li></button>
+
+<div class="discord-popup" id="discordPopup">
+    <span class="close" onclick="togglePopup()">&times;</span>
+    <h2>Contato do Discord</h2>
+    <p>Breidao</p>
+</div>
+
+<script>
+    function togglePopup() {
+        var popup = document.getElementById("discordPopup");
+        if (popup.style.display === "none") {
+            popup.style.display = "block";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+</script>
+
+                
+                </body>
+                </html>
                             </a>
                         </ul>
                 </ul>
@@ -179,12 +197,12 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="d-inline-block">
-                    <img src="WhatsApp Image 2024-02-15 at 07.14.46.jpeg" class="img-fluid imagem-limitada"
+                    <img src="i606944.png" class="img-fluid imagem-limitada"
                         alt="Imagem 2">
                 </div>
                 <div class="texto">
-                    <h5>Leo.</h5>
-                    <p>A melhor pessoa para me xingar a cada 2 segundos mas que me faz fazer as coisas certas.</p>
+                    <h5>Google.</h5>
+                    <p>O tanto que ele me ajudou nesse trabalho não está escrito..</p>
                 </div>
             </div>
         </div>
