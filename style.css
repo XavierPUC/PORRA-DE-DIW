@@ -44,6 +44,10 @@ padding: 80px;
 .fa-discord {
     margin-left: 0px; 
 }
+
+.discord-popup{
+    display: none;
+}
 .discord-button {
     background-color: #7289da; /* Cor de fundo do Discord */
     border: none;
@@ -52,8 +56,9 @@ padding: 80px;
     border-radius: 5px; /* Borda arredondada */
     cursor: pointer;
 }
-
+.discord
 .botao-redondo {
+    
     display: inline-block;
     padding: 3px 20px;
     border-radius: 50px;
