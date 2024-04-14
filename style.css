@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.link{
+
+display: flex;
+justify-content: flex-end;
+align-items: end;
+
+}
+
+header{
+
+    background-color: bisque;
+}
+
+.foto{
+
+    width: 120px;
+    height: 120px;
+}
+
+.lista li
+{
+
+display: flex;
+justify-content: flex;
+align-items: end;
+padding: 80px;
+
+}
+
+.pfp
+{
+    display: flex;
+    justify-content: flex;
+    align-items: flex;
+    
+}
+
+.fa-discord {
+    margin-left: 0px; 
+}
+.discord-button {
+    background-color: #7289da; /* Cor de fundo do Discord */
+    border: none;
+    color: #fff; /* Cor do texto */
+    padding: 3px 3px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer;
+}
+
+.botao-redondo {
+    display: inline-block;
+    padding: 3px 20px;
+    border-radius: 50px;
+    background-color: #00bcd4; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.botao-redondo:hover {
+    background-color: #008ba3; /* Cor de fundo ao passar o mouse */
+}
+
+.discord-button:hover {
+    background-color: #677bc4; /* Cor de fundo do Discord ao passar o mouse */
+}
+.nome2 {
+    color: blue
+}
+
+.foto {
+    margin-right: -60px; 
+}
+
+.linha-separacao {
+    border-width: 1px; 
+    border-color: #000; 
+}
+
+.cards-container {
+    display: flex; /* Define o container como flexível */
+    justify-content: 10px; /* Distribui os itens com espaço igual entre eles */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
+}
+
+.card {
+    width: calc(50% - 1rem); /* Definindo a largura de cada card (50% da largura do container menos a margem) */
+    margin-bottom: 1rem; /* Adicionando uma margem inferior para separar os cards */
+}
+
+    /* Estilo para limitar a altura das imagens */
+    .carousel-item img {
+        max-height: 400px; /* Defina a altura máxima desejada para as imagens */
+        width: 100%; /* Garante que a largura da imagem ocupe toda a largura do carrossel */
+        object-fit: scale-down; /* Redimensiona a imagem para cobrir todo o espaço disponível */
+    }
+  
+    /* Estilo para o texto do carrossel */
+    .carousel-caption h5,
+    .carousel-caption p {
+        color: rgb(14, 146, 255);
+    }
+
+    ;.col-md-4{
+   width: 120px;
+    height: 120px;
+
+    }
+
+    .imagem-limitada {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .card-com-margin {
+        margin-right: 100px; /* Ajuste a largura conforme necessário */
+    }
+
+    /* Adiciona espaçamento inferior apenas no último card */
+    .card-com-margin:last-child {
+        margin-bottom: 0px; /* Ajuste a altura conforme necessário */
+    }
+    .cards-container {
+        display: flex;
+        justify-content: center;
+    }
